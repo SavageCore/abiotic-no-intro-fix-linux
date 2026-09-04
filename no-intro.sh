@@ -35,7 +35,7 @@ box() {
     right=$(( inner - ${#subtitle} - left ))
     printf "  ${BOLD}${CYAN}|${RESET}%${left}s${DIM}%s${RESET}%${right}s${BOLD}${CYAN}|${RESET}\n" "" "$subtitle" ""
     echo -e "${BOLD}${CYAN}  $bot${RESET}"
-    echo -e "  ${DIM}  by SavageCore  -  v0.0.0${RESET}"
+    echo -e "  ${DIM}  by SavageCore  -  v0.1.0${RESET}"
     echo ""
 }
 box "Abiotic Factor - No-Intro" "Skip startup/splash videos"
